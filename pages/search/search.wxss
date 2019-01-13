@@ -1,0 +1,78 @@
+/* pages/search/search.wxss */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.logo {
+  width: 224rpx;
+  height: 224rpx;
+  margin-top: 118rpx;
+}
+
+.name {
+  margin-top: 58rpx;
+  font-family: Songti SC;
+  font-size: 32rpx;
+  color: #585858;
+}
+
+.form-container {
+  width: 100%;
+}
+
+.input-container {
+  margin-top: 94rpx;
+  /* width: 100%; */
+  height: 88rpx;
+  /* background-color: #fff; */
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+}
+
+.input-item1 {
+  width: 70%;
+  display: flex;
+  align-items:flex-start;
+}
+
+.input-item2 {
+  width: 20%;
+  display: flex;
+  align-items:flex-start;
+}
+
+.input-search {
+  /* margin: auto; */
+  width:100%;
+  height: 100%;
+  background-color: #fff;
+
+}
+
+.search-btn {
+  width: 160rpx;
+}
+
+.button-search {
+  margin: 226rpx;
+  display: flex;
+  flex-direction: column;
+  width: 360rpx;
+  height: 70rpx;
+  border: 2rpx solid #353535;
+  border-radius: 10rpx;
+  align-items: center;
+}
+
+.text-search {
+  margin: auto;
+  font-family: Songti TC;
+  font-size: 32rpx;
+  color: #585858;
+}

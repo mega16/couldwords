@@ -1,0 +1,19 @@
+<view class="container">
+  <image class="logo" src="/images/logo.jpg"></image>
+  <text class="name">云儿词典</text>
+  <form bindsubmit="formSubmit" class='form-container' >
+      <view class="input-container">
+        <view class="input-item1">
+          <input class="input-search" bindconfirm="search" placeholder="请输入您要查询的单词" name="input" type="text"/>
+        </view>
+
+        <view class="input-item2" bindtap="search">
+          <button type="default" form-type="submit" class="search-btn">查询</button>
+        </view> 
+        </view>
+      
+  </form>
+  <view class="button-search" bindtap="help">
+    <text class="text-search">说明</text>
+  </view>
+</view>

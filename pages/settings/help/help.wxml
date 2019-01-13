@@ -1,0 +1,8 @@
+<!--pages/settings/help/help.wxml-->
+<view class="container">
+  
+  <text class='name'>版本： version 0.1</text>
+  <text class='name'>开发工具： 小程序IDE</text>
+  <text class='name'>参考文档： 微信开发手册</text>
+  
+</view>
